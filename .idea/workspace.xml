@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3882876d-da23-4a8b-aa89-7e2a85c3ab36" name="Changes" comment="Election app day2">
-      <change afterPath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/ElectoralOfficialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/VotersDatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ElectoralSystem/VotersDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/PasswordCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElectoralSystem/PasswordChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/ElectoralOfficialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/ElectoralOfficialTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/VoterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/VoterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElectoralSystem/ElectoralOfficial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectoralSystem/ElectoralOfficial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ElectoralSystem/Voter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectoralSystem/Voter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +58,9 @@
     &quot;accountId&quot;: &quot;4f493eb5-830b-4405-ad96-5e4491751bbf&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ElectoralSystem/Voter.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -75,6 +79,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.PasswordCheckerTest.executor": "Coverage",
     "JUnit.VoterTest.executor": "Run",
     "JUnit.VotersAccountTest.executor": "Run",
     "JUnit.VotersDatabaseTest.executor": "Run",
@@ -144,7 +149,10 @@
       <workItem from="1766638658216" duration="10184000" />
       <workItem from="1766731688382" duration="634000" />
       <workItem from="1766732731057" duration="39000" />
-      <workItem from="1766732814092" duration="18841000" />
+      <workItem from="1766732814092" duration="21515000" />
+      <workItem from="1766858488992" duration="3790000" />
+      <workItem from="1767036736121" duration="6681000" />
+      <workItem from="1767075976199" duration="2915000" />
     </task>
     <task id="LOCAL-00001" summary="E-voters apppppppp">
       <option name="closed" value="true" />
@@ -186,18 +194,53 @@
       <option name="project" value="LOCAL" />
       <updated>1766695954189</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Election app day2">
+      <option name="closed" value="true" />
+      <created>1766775904929</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766775904929</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -209,5 +252,10 @@
     <MESSAGE value="Eva" />
     <MESSAGE value="Election app day2" />
     <option name="LAST_COMMIT_MESSAGE" value="Election app day2" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Election_snacks$PasswordCheckerTest.ic" NAME="PasswordCheckerTest Coverage Results" MODIFIED="1767076950570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>ElectoralSystem.*</FILTER>
+    </SUITE>
   </component>
 </project>

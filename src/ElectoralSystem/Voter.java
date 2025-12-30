@@ -11,7 +11,6 @@ public class Voter {
     int numberOfVote;
     String politicalParty;
 
-
     VotersDatabase vd = new VotersDatabase();
     public void register(String username, String password, String email, int age) {
      this.username = username;
@@ -26,11 +25,15 @@ public class Voter {
      vd.add(username,votersDetails);
     }
 
-    public void login(String username,String password){
+    PasswordChecker checker = new PasswordChecker();
+
+    public String login(String username,String password){
         if(votersDetails[0] != username || votersDetails[1] != password){
-            System.out.println("Wrong username or password");
+            return "Invalid username or password";
         }
+       return "Login Successful";
     }
+    
     public boolean isEligible() {
         isEligible = age >= 18;
         return isEligible;
@@ -46,6 +49,13 @@ public class Voter {
         }
     }
 
+    public String checkResult(){
+        return "";
+    }
 
+    public boolean checkPassword(String password) {
+        this.password = password;
+        return checker.isStrong(this.password);
+    }
 
 }
