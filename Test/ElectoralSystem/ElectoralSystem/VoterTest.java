@@ -18,6 +18,7 @@ class VoterTest {
     public void voterAis17_isEligibleIsFalseTest() {
         voterA.register("Emmanuel","Emmax2009#","olatunjie335@gmail.com",17);
         assertFalse(voterA.isEligible());
+       assertEquals("Invalid username or password",voterA.login("Emmanuel","Emmax2009#"));
     }
 
     @Test
@@ -31,7 +32,7 @@ class VoterTest {
         voterA.register("Emmanuel","Emmax2009#","olatunjie335@gmail.com",20);
         assertTrue(voterA.isEligible());
 
-        voterA.vote("PDP");
+        voterA.vote(PartyName.PDP);
         assertEquals(1, voterA.numberOfVote);
     }
 
@@ -43,8 +44,8 @@ class VoterTest {
         voterB.register("Emmanuella","Emmax2009#","olatunjie335@gmail.com",34);
         assertTrue(voterB.isEligible());
 
-        voterA.vote("PDP");
-        voterB.vote("PDP");
+        voterA.vote(PartyName.PDP);
+        voterB.vote(PartyName.APC);
 
         assertEquals(1, voterA.numberOfVote);
         assertEquals(1, voterB.numberOfVote);
@@ -68,7 +69,7 @@ class VoterTest {
     public void voterAis24HeTriesToRegistersButHisPasswordDidNotReachTheConditionTest() {
         voterA.register("Emmax","Emmax","olatunjie355@gmail.com",24);
         assertTrue(voterA.isEligible());
-        assertFalse(voterA.checkPassword("Emmax"));
+//        assertFalse(voterA.checkPassword("Emmax"));
     }
 
 

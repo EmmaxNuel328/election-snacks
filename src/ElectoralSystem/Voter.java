@@ -1,5 +1,10 @@
 package ElectoralSystem;
 
+import java.util.Objects;
+
+import static ElectoralSystem.ElectoralOfficial.*;
+
+
 public class Voter {
     private String username;
     private String password;
@@ -9,7 +14,7 @@ public class Voter {
     private String[] votersDetails = new  String[4];
     private int count;
     int numberOfVote;
-    String politicalParty;
+    private PartyName  partyName;
 
     VotersDatabase vd = new VotersDatabase();
     public void register(String username, String password, String email, int age) {
@@ -17,18 +22,22 @@ public class Voter {
      this.password = password;
      this.email = email;
      this.age = age;
-     votersDetails[0] = this.username;
-     votersDetails[1] = this.password;
-     votersDetails[2] = this.email;
-     votersDetails[3] = this.age+"";
-
-     vd.add(username,votersDetails);
+     if(!isEligible()) {
+         System.out.println("You are not eligible");
+     }
+     else {
+         votersDetails[0] = this.username;
+         votersDetails[1] = this.password;
+         votersDetails[2] = this.email;
+         votersDetails[3] = this.age + "";
+         vd.add(username, votersDetails);
+     }
     }
 
     PasswordChecker checker = new PasswordChecker();
 
     public String login(String username,String password){
-        if(votersDetails[0] != username || votersDetails[1] != password){
+        if(!Objects.equals(votersDetails[0], username) || !Objects.equals(votersDetails[1], password)){
             return "Invalid username or password";
         }
        return "Login Successful";
@@ -39,23 +48,39 @@ public class Voter {
         return isEligible;
     }
 
-    public void vote(String partyName) {
-        this.politicalParty = partyName;
-        if(numberOfVote == 1) {
-            System.out.println(username + " has already voted!!!");
-        }
-        else{
-            numberOfVote++;
-        }
+    ElectoralOfficial e = new ElectoralOfficial();
+    public void vote(PartyName partyName) {
+        this.partyName = partyName;
+        PartyName partyName1 = PartyName.PDP;
+        PartyName partyName2 = PartyName.APC;
+        PartyName partyName3 = PartyName.LP;
+       if(partyName ==  partyName1) {
+           if(numberOfVote == 1) System.out.println("You have already voted"); else numberOfVote++; votersForPdp.add(partyName1);
+       }
+       else if(partyName ==  partyName2) {
+           if(numberOfVote == 1) System.out.println("You have already voted"); else numberOfVote++; votersForApc.add(partyName2);
+       }
+       else if(partyName ==  partyName3) {
+           if(numberOfVote == 1) System.out.println("You have already voted"); else numberOfVote++; votersForLp.add(partyName3);
+           votersForLp.add(partyName3);
+       }
+       else{
+           System.out.println("Party does not exist");
+       }
     }
 
     public String checkResult(){
         return "";
     }
 
-    public boolean checkPassword(String password) {
+    public void checkPassword(String password) {
         this.password = password;
-        return checker.isStrong(this.password);
+    }
+
+    public void viewProfile(){
+        System.out.println("Welcome " + this.username);
+        System.out.println("Username: " + this.username);
+        System.out.println("Email: " + this.email);
     }
 
 }

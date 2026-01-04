@@ -9,8 +9,8 @@ public class VotersDatabase {
     private int count;
     private int counter;
     private boolean isEmpty;
-    private String[] keys = new String[2];
-    private String[][] values = new String[2][4];
+    private static String[] keys = new String[2];
+    private static String[][] values = new String[2][4];
 
 
 

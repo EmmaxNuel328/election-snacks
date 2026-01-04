@@ -29,7 +29,7 @@ public class PasswordChecker {
         return numberOfUpperCase;
     }
 
-    public int getNumberOfDigit(String password) {
+    public  int getNumberOfDigit(String password) {
         int  numberOfDigit = 0;
         for(int count = 0; count < password.length(); count++) {
             if(password.charAt(count) >= '0' && password.charAt(count) <= '9') {
@@ -52,8 +52,7 @@ public class PasswordChecker {
         return numberOfSymbol;
     }
 
-    public boolean isStrong(String password) {
-        boolean isStrong = checkPasswordForLength(password) && getNumberOfLowerCase(password) >= 1 && getNumberOfUpperCase(password) >= 1 && getNumberOfDigit(password) >= 1 && getNumberOfSymbol(password) >= 1;
-        return isStrong;
+    public   boolean isStrong(String password) {
+        return checkPasswordForLength(password) && getNumberOfUpperCase(password) >= 1 && getNumberOfLowerCase(password) >= 1 && getNumberOfDigit(password) >= 1 && getNumberOfSymbol(password) >= 1;
     }
 }
