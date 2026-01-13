@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3882876d-da23-4a8b-aa89-7e2a85c3ab36" name="Changes" comment="Election app in progress">
-      <change afterPath="$PROJECT_DIR$/src/ElectoralSystem/PartyName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/IntelliLang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/ElectoralOfficialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/ElectoralOfficialTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/PasswordCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/PasswordCheckerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/VoterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/VoterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/ElectoralSystem/ElectoralSystem/VotersDatabaseTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ElectoralSystem/ElectoralOfficial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectoralSystem/ElectoralOfficial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElectoralSystem/EvotersApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectoralSystem/EvotersApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElectoralSystem/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectoralSystem/PasswordChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ElectoralSystem/Voter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectoralSystem/Voter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElectoralSystem/VotersDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectoralSystem/VotersDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElectoralSystem/VotersDatabase.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,9 @@
     <setting file="file://$PROJECT_DIR$/src/ElectoralSystem/Voter.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -84,48 +85,49 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EvotersApp.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.ElectoralOfficialTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PasswordCheckerTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.VoterTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VoterTest.voterAis24HeTriesToRegistersButHisPasswordDidNotReachTheConditionTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VoterTest.voterAis34HeRegistersThenLogsIn_isEligibleIsTrueTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VotersAccountTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.VotersDatabaseTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit6&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit6&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/DELL/IdeaProjects/Election snacks/src/ElectoralSystem&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/IdeaProjects/Election snacks&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/DELL/IdeaProjects/Election snacks/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.maddyhome.idea.vim.ui.VimEmulationConfigurable&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EvotersApp.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ElectoralOfficialTest.executor": "Run",
+    "JUnit.PasswordCheckerTest.executor": "Run",
+    "JUnit.VoterTest.executor": "Run",
+    "JUnit.VoterTest.voterAis24HeTriesToRegistersButHisPasswordDidNotReachTheConditionTest.executor": "Run",
+    "JUnit.VoterTest.voterAis34HeRegistersThenLogsIn_isEligibleIsTrueTest.executor": "Run",
+    "JUnit.VotersAccountTest.executor": "Run",
+    "JUnit.VotersDatabaseTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit6",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit6": "",
+    "create.test.in.the.same.root": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/DELL/IdeaProjects/Election snacks/src/ElectoralSystem",
+    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/Election snacks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/DELL/IdeaProjects/Election snacks/src/Main.java",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
+    "show.migrate.to.gradle.popup": "false",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -142,7 +144,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EvotersApp">
+  <component name="RunManager">
     <configuration name="EvotersApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ElectoralSystem.EvotersApp" />
       <module name="Election snacks" />
@@ -229,7 +231,12 @@
       <workItem from="1767441246986" duration="853000" />
       <workItem from="1767528469323" duration="69000" />
       <workItem from="1767543207074" duration="47000" />
-      <workItem from="1767548157472" duration="81000" />
+      <workItem from="1767548157472" duration="3121000" />
+      <workItem from="1767621214352" duration="1332000" />
+      <workItem from="1767632826053" duration="3488000" />
+      <workItem from="1767778419634" duration="510000" />
+      <workItem from="1768205208534" duration="1138000" />
+      <workItem from="1768298212216" duration="1746000" />
     </task>
     <task id="LOCAL-00001" summary="E-voters apppppppp">
       <option name="closed" value="true" />
@@ -287,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767079239576</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Election app in progress">
+      <option name="closed" value="true" />
+      <created>1767548295253</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767548295253</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

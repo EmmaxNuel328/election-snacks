@@ -21,7 +21,7 @@ public class ElectoralOfficialTest {
         Voter voterB = new  Voter();
 
         voterA.register("Emmanuel","Emmax2009#","olatunjie335@gmail.com",25);
-        voterB.register("Cassandra","Cassy2307#","esssss@gmail.com",24);
+        voterB.register("emmax","Emmas2103#","esssss@gmail.com",24);
         voterA.vote(PartyName.PDP);
         voterB.vote(PartyName.PDP);
 

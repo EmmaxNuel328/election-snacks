@@ -16,7 +16,7 @@ public class Voter {
     int numberOfVote;
     private PartyName  partyName;
 
-    VotersDatabase vd = new VotersDatabase();
+
     public void register(String username, String password, String email, int age) {
      this.username = username;
      this.password = password;
@@ -30,7 +30,6 @@ public class Voter {
          votersDetails[1] = this.password;
          votersDetails[2] = this.email;
          votersDetails[3] = this.age + "";
-         vd.add(username, votersDetails);
      }
     }
 

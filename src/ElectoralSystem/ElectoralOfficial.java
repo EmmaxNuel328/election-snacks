@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class ElectoralOfficial {
     private String officialName;
     private String officialId;
-    private VotersDatabase  votersDatabase;
     static ArrayList<PartyName> votersForPdp = new ArrayList<>();
     static ArrayList<PartyName> votersForApc = new ArrayList<>();
     static ArrayList<PartyName> votersForLp = new ArrayList<>();
